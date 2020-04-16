@@ -1,38 +1,32 @@
 ---
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
+name: Bug report template
+about: Use this template when reporting a bug
+---
+
+<!--- If this issue relates to a security vulnerability in Archivematica or any of the related repositories, DO NOT file the issue here. Please see the SECURITY.md file in https://github.com/archivematica/Issues for information on how to safely report a security vulnerability. ---> 
+
+<!--- Please give your issue a title formatted as a problem statement, starting with "Problem:". Check existing issues for examples. --->
+
+**Expected behaviour**
+
+
+**Current behaviour**
+
+
+**Steps to reproduce**
+
+
+**Your environment (version of Archivematica, operating system, other relevant details)**
+
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**For Artefactual use:**
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+Before you close this issue, you must check off the following:
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
-
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
+- [ ] All pull requests related to this issue are properly linked
+- [ ] All pull requests related to this issue have been merged
+- [ ] A testing plan for this issue has been implemented and passed (testing plan information should be included in the issue body or comments)
+- [ ] Documentation regarding this issue has been written and merged (if applicable)
+- [ ] Details about this issue have been added to the release notes (if applicable)
